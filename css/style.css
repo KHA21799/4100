@@ -140,7 +140,10 @@ p{
 	margin: 40px;
 	}
 
-button{
+
+
+a{
+	text-decoration: none;
 	font-family: 'Dancing Script', cursive;
 	background: rgba(3,209,251,1) 100%;
 	font-size: 30px;
@@ -148,6 +151,7 @@ button{
 	border-radius: 50%;
 	cursor: pointer;
 	font-weight: bold;
+	outline: 0;
 
 	position: absolute;
 	bottom: 30px;
@@ -157,7 +161,7 @@ button{
 
 }
 
-.menu:active button{
+.menu:active a{
 	transform: scale(0.8);
 }
 
